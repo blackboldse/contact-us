@@ -3,10 +3,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream Fashion</title>
+    <title>Contact-us</title>
+    <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <!-- font-icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous"
@@ -16,9 +18,83 @@
 <body>
     <section class="contact-us" id="lienhe-gopy">
         <div class="block">
-            <span class="block-caption">Liên hệ - Góp ý</span>
+            <span class="block-caption">GỬI GÓP Ý, KHIẾU NẠI</span>
+            <h2 class="block-title">
+                <span>Liên hệ</span> <span>với chúng tôi</span>
+            </h2>
         </div>
     </section>
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-1">Pho Thoi Trang, An Hoi</div>
+                    <div class="text-2">Ninh Kieu, Can Tho</div>
+                </div>
+                <div class="phone details">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-1">02923 999 999</div>
+                    <div class="text-2">02923 888 888</div>
+                </div>
+                <div class="email details">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-1">thoitrangnamcantho@dreamf.vn</div>
+                    <div class="text-2">info.thoitrangnam@dremf.vn</div>
+                </div>
+                <div class="website details">
+                    <i class="fa-solid fa-globe"></i>
+                    <li class="website text-1">
+                        <a href="http://thoitrangnamcantho.com.vn/">
+                            <div class="topic">Website</div>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="right-side">
+                <form action="thoitrangnamcantho@dreamf.vn" id="contact-us" class="contact-form">
+                    <h1>DreamF hân hạnh được hỗ trợ quý khách</h1>
+                    <div class="fm-group">
+                        <label id="name-label" for="name">Tiêu đề <span class="itemRequiredAsterisk">*</span></label>
+                        <input type="text" id="title" name="title" class="contact-form" required>
+                    </div>
+                    <div class="fm-group">
+                        <label id="name-label" for="name">Nội dung <span class="itemRequiredAsterisk">*</span></label>
+                        <textarea id="text-area" name="comment" placeholder="Quý khách vui lòng mô tả chi tiết" rows="6" spellcheck="true"></textarea>
+                    </div>
+                    <div class="fm-group">
+                        <label id="name-label" for="name">Họ và tên <span class="itemRequiredAsterisk">*</span></label>
+                        <input type="text" id="name" name="name" class="contact-form" required>
+                    </div>
+                    <div class="fm-group">
+                        <label id="email-label" for="email">Địa chỉ email <span class="itemRequiredAsterisk">*</span></label>
+                        <input type="email" id="email" name="email" class="contact-form" required>
+                    </div>
+                    <div class="fm-group">
+                        <label id="phone-label" for="email">Số điện thoại <span class="itemRequiredAsterisk">*</span></label>
+                        <input type="tel" id="phone" name="phone" class="contact-form" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </div>
+                    <div class="fm-group">
+                        <button class="btn-submit" id="submit">GỬI LIÊN HỆ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bot-side">
+            <div class="maps">
+                <p class="maps-location">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2246.2884754790794!2d105.78205052982688!3d10.04208632625442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a062a7a745975f%3A0x5bb10a2565c95585!2zTmd1eeG7hW4gVHLDo2ksIE5pbmggS2nhu4F1LCBD4bqnbiBUaMahLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1645093261819!5m2!1sen!2s"
+                    width="100%"
+                    height="550"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"></iframe>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-<!-- http://thoitrangnamcantho.com.vn/ -->
