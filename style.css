@@ -1,7 +1,6 @@
 :root {
     font-size: 10px;
     --primary-color: #5799FF;
-    --white: #ffffff;
     --grey: #6E757C;
     --grey-dark:#272E35;
     --grey-light: #f3f3f3;
@@ -204,6 +203,17 @@ textarea {
 
 .btn-submit:hover {
     opacity: .9;
+}
+
+a {
+    cursor: pointer;
+    border-radius: .4rem;
+    transition: opacity .2s ease;
+    text-decoration: none;
+}
+a:hover {
+    opacity: .9;
+    color: var(--primary-color);
 }
 
 /* responsive */
